@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+
 import { useRouter } from "next/navigation";
 
 const IconItem = ({ icon: Icon, link }) => {

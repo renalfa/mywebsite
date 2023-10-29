@@ -1,12 +1,14 @@
 "use client";
 
-import Container from "./Container";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
-import IconItem from "./IconItem";
+
 import { menus } from "@/app/data/data";
+import Container from "./Container";
+import IconItem from "./IconItem";
 import MenuItem from "./MenuItem";
+
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Hero = () => {
   const listIcon = [
@@ -17,6 +19,7 @@ const Hero = () => {
     },
     { icon: BsInstagram, link: "https://www.instagram.com/rnl________/" },
   ];
+
   return (
     <Container>
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
