@@ -9,12 +9,13 @@ const Navbar = () => {
   const router = useRouter();
   return (
     <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-      <div className=" flex flex-row items-center">
+      <div className="flex flex-row w-full items-center justify-center h-36 fixed top-0 left-0 bg-gradient-to-b from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
         <div
           onClick={() => router.back()}
-          className=" cursor-pointer p-4 hover:scale-125"
+          className="flex cursor-pointer p-4 hover:scale-125"
         >
           <MdArrowBackIos size={20} />
+          Back
         </div>
       </div>
       <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">

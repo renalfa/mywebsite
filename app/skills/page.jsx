@@ -19,7 +19,7 @@ const page = () => {
   return (
     <Container>
       <Navbar />
-      <div className="flex flex-col gap-6 my-4">
+      <div className="flex flex-col gap-6 my-14 md:my-4">
         <SkillContent label="Language" data={languages} />
         <div className=" grid gap-2 md:gap-6 md:grid-cols-2">
           <SkillContent label="Frontend" data={frontends} />

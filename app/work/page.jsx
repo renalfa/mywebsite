@@ -35,7 +35,7 @@ const page = () => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-14 md:mt-4"
       >
         {works.map((item, i) => (
           <WorkItem key={i} item={item} />
