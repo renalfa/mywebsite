@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
       <div className="flex flex-row w-full items-center justify-center h-36 fixed top-0 left-0 bg-gradient-to-b from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
         <div
-          onClick={() => router.back()}
+          onClick={() => router.push("/")}
           className="flex cursor-pointer p-4 hover:scale-125"
         >
           <MdArrowBackIos size={20} />

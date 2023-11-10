@@ -7,7 +7,7 @@ export const menus = [
   {
     title: "Work",
     desc: "where you can get a taste of my professional journey, accomplishments, and expertise",
-    link: "/work",
+    link: "/work/website",
   },
   {
     title: "Skills",
@@ -21,7 +21,22 @@ export const menus = [
   },
 ];
 
-export const works = [
+export const worksMobile = [
+  {
+    title: "Removie - Movie App",
+    thumbnail: "/images/movieapp.jpg",
+    link: "https://drive.google.com/drive/folders/15koGIf6U5vQoA-rwXAACluGOUCueSWw0?usp=sharing",
+    tech: ["React Native", "TMDB API"],
+  },
+  {
+    title: "Recoffee - Coffee Shop App",
+    thumbnail: "/images/coffeeshop.jpg",
+    link: "https://drive.google.com/drive/folders/167O6vZkSj9BdbPD39lAg1B9T6iBYydnz?usp=sharing",
+    tech: ["React Native"],
+  }
+];
+
+export const worksWeb = [
   {
     title: "Panel Admin Next Generation",
     thumbnail: "/images/panel-admin.png",
