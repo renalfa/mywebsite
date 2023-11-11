@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import {} from "file-saver";
 
 import IconItem from "./IconItem";
 
@@ -15,6 +16,11 @@ const NavbarHome = () => {
     },
     { icon: BsInstagram, link: "https://www.instagram.com/rnl________/" },
   ];
+  const handleDownload = () => {
+    const pdfUrl = "/file/Resume.pdf";
+    const pdfName = "CV_Reynald_Frontend.pdf";
+    saveAs(pdfUrl, pdfName);
+  };
 
   return (
     <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -22,6 +28,12 @@ const NavbarHome = () => {
         {listIcon.map((item, index) => (
           <IconItem key={index} icon={item.icon} link={item.link} />
         ))}
+        <button
+          onClick={handleDownload}
+          className=" bg-neutral-800/50 py-2 px-4 rounded-full hover:bg-neutral-600/50 transition-all"
+        >
+          Download CV
+        </button>
       </div>
       <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
         <div
