@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import {} from "file-saver";
+import { saveAs } from "file-saver";
 
 import IconItem from "./IconItem";
 
@@ -16,8 +16,9 @@ const NavbarHome = () => {
     },
     { icon: BsInstagram, link: "https://www.instagram.com/rnl________/" },
   ];
+
   const handleDownload = () => {
-    const pdfUrl = "/file/Resume.pdf";
+    const pdfUrl = "/file/CV_Reynald_Frontend.pdf";
     const pdfName = "CV_Reynald_Frontend.pdf";
     saveAs(pdfUrl, pdfName);
   };
