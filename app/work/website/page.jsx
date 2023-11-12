@@ -37,7 +37,10 @@ const page = () => {
       <Navbar />
       <div className="my-16">
         <div className=" flex gap-5">
-          <div className="flex bg-orange-500 cursor-pointer hover:bg-neutral-400/10 rounded-full gap-2 items-center py-2 px-4">
+          <div
+            style={{ backgroundColor: "#1652ac" }}
+            className="flex cursor-pointer hover:bg-neutral-400/10 rounded-full gap-2 items-center py-2 px-4"
+          >
             <GoDeviceDesktop size={22} />
             Website
           </div>

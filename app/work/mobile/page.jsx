@@ -45,7 +45,10 @@ const page = () => {
             <GoDeviceDesktop size={22} />
             Website
           </div>
-          <div className="flex bg-orange-500 cursor-pointer hover:bg-neutral-400/10 rounded-full gap-2 items-center py-2 px-4">
+          <div
+            style={{ backgroundColor: "#1652ac" }}
+            className="flex cursor-pointer hover:bg-neutral-400/10 rounded-full gap-2 items-center py-2 px-4"
+          >
             <GoDeviceMobile size={22} />
             Mobile
           </div>
