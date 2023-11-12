@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 import Container from "@/components/Container";
 import Navbar from "@/components/Navbar";
@@ -11,8 +12,6 @@ import Footer from "@/components/Footer";
 import { GoDeviceDesktop, GoDeviceMobile } from "react-icons/go";
 
 import { worksMobile } from "../../data/data";
-import { useRouter } from "next/navigation";
-import { useRouter as Router } from "next/router";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },

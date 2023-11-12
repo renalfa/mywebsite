@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 import Hero from "@/components/Hero";
 import MenuItem from "@/components/MenuItem";
 import Container from "@/components/Container";
-
-import { menus } from "@/app/data/data";
 import NavbarHome from "@/components/NavbarHome";
 import ParticlesComponents from "@/components/Particles";
+
+import { menus } from "@/app/data/data";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
