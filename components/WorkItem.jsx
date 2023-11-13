@@ -18,7 +18,10 @@ const WorkItem = ({ item }) => {
   const router = useRouter();
 
   return (
-    <motion.li variants={itemMotion} className="relative group max-w-[400px] flex flex-col items-center justify-center rounded-md overflow-hidden gap-x-4 bg-neutral-400/5 cursor-pointer hover:bg-neutral-400/10 transition p-3">
+    <motion.li
+      variants={itemMotion}
+      className="relative group max-w-[400px] flex flex-col items-center justify-center rounded-md overflow-hidden gap-x-4 bg-neutral-400/5 cursor-pointer hover:bg-neutral-400/10 transition p-3"
+    >
       <div className="relative w-full h-full rounded-md overflow-hidden">
         <Image
           className="object-cover"

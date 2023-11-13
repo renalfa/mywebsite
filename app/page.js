@@ -1,23 +1,38 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 import Hero from "@/components/Hero";
 import MenuItem from "@/components/MenuItem";
 import Container from "@/components/Container";
 import NavbarHome from "@/components/NavbarHome";
 import ParticlesComponents from "@/components/Particles";
+import Notif from "@/components/Notif";
 
 import { menus } from "@/app/data/data";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
 
+  const showToast = () => {
+    toast.custom((t) => (
+      <Notif home={true} t={t} onClose={() => toast.dismiss(t.id)} />
+    ));
+  };
+
   useEffect(() => setMounted(true), []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      showToast();
+    }, 1500);
+  }, []);
 
   if (!mounted) return null;
   return (
     <>
+      <Toaster reverseOrder={false} toastOptions={{ duration: 3000 }} />
       <ParticlesComponents />
       <Container>
         <NavbarHome />
