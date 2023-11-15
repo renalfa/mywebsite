@@ -46,7 +46,7 @@ const page = () => {
             </div>
             <div className="flex gap-4 items-center">
               <LuMail size={26} />
-              rfaidzilah@gmial.com
+              rfaidzilah@gmail.com
             </div>
             <div className="flex gap-3 items-center max-w-[400px]">
               <LuMapPin size={40} />
