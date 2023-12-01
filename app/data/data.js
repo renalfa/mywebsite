@@ -33,7 +33,7 @@ export const worksMobile = [
     thumbnail: "/images/coffeeshop.jpg",
     link: "https://drive.google.com/drive/folders/167O6vZkSj9BdbPD39lAg1B9T6iBYydnz?usp=sharing",
     tech: ["React Native"],
-  }
+  },
 ];
 
 export const worksWeb = [
@@ -187,5 +187,96 @@ export const otherTools = [
   {
     title: "Netlify",
     icon: "netlify",
+  },
+];
+
+export const certificates = [
+  {
+    title: "Full Stack Web Development Certificate",
+    link: "",
+    institution: "Binar Academy",
+    issued: "Apr 2023",
+    expired: "-",
+    credential: "-",
+  },
+  {
+    title: "Student Report",
+    link: "",
+    institution: "Binar Academy",
+    issued: "Apr 2023",
+    expired: "-",
+    credential: "-",
+  },
+  {
+    title: "Belajar Membuat Aplikasi Back-End untuk Pemula",
+    link: "https://www.dicoding.com/certificates/6RPNW3K25P2M",
+    institution: "Dicoding Indonesia",
+    issued: "Mar 2023",
+    expired: "Mar 2026",
+    credential: "6RPNW3K25P2M",
+  },
+  {
+    title: "Belajar Fundamental Front-End Web Development",
+    link: "https://www.dicoding.com/certificates/4EXG9JORQZRL",
+    institution: "Dicoding Indonesia",
+    issued: "Feb 2023",
+    expired: "Feb 2026",
+    credential: "4EXG9JORQZRL",
+  },
+  {
+    title: "Belajar Dasar Git dengan GitHub",
+    link: "https://www.dicoding.com/certificates/MEPJK2Q56X3V",
+    institution: "Dicoding Indonesia",
+    issued: "Jan 2023",
+    expired: "Jan 2026",
+    credential: "MEPJK2Q56X3V",
+  },
+  {
+    title: "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    link: "https://www.dicoding.com/certificates/JLX1L5926X72",
+    institution: "Dicoding Indonesia",
+    issued: "Jan 2023",
+    expired: "Jan 2026",
+    credential: "JLX1L5926X72",
+  },
+  {
+    title: "Belajar Dasar Pemrograman JavaScript",
+    link: "https://www.dicoding.com/certificates/81P28NDWYPOY",
+    institution: "Dicoding Indonesia",
+    issued: "Des 2022",
+    expired: "Des 2025",
+    credential: "81P28NDWYPOY",
+  },
+  {
+    title: "Belajar Dasar Pemrograman Web",
+    link: "https://www.dicoding.com/certificates/NVP7K2JDOZR0",
+    institution: "Dicoding Indonesia",
+    issued: "Sep 2022",
+    expired: "Sep 2025",
+    credential: "NVP7K2JDOZR0",
+  },
+  {
+    title: "Belajar Fundamental Aplikasi Web dengan React",
+    link: "https://www.dicoding.com/certificates/EYX49VM1JPDL",
+    institution: "Dicoding Indonesia",
+    issued: "Des 2022",
+    expired: "Des 2025",
+    credential: "EYX49VM1JPDL",
+  },
+  {
+    title: "Belajar Membuat Aplikasi Web dengan React",
+    link: "https://www.dicoding.com/certificates/1RXYO158QPVM",
+    institution: "Dicoding Indonesia",
+    issued: "Des 2022",
+    expired: "Des 2025",
+    credential: "1RXYO158QPVM",
+  },
+  {
+    title: "Belajar Membuat Front-End Web untuk Pemula",
+    link: "https://www.dicoding.com/certificates/QLZ9KMLGEZ5D",
+    institution: "Dicoding Indonesia",
+    issued: "Sep 2022",
+    expired: "Sep 2025",
+    credential: "QLZ9KMLGEZ5D",
   },
 ];
