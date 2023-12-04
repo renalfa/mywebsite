@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import SkillContent from "@/components/SkillContent";
 import OtherToolContent from "@/components/OtherToolContent";
+import ParticlesComponents from "@/components/Particles";
 
 import { backends, frontends, languages, otherTools } from "../data/data";
-import ParticlesComponents from "@/components/Particles";
 
 const page = () => {
   const [mounted, setMounted] = useState(false);
@@ -28,7 +28,7 @@ const page = () => {
             <SkillContent label="Frontend" data={frontends} />
             <SkillContent label="Backend" data={backends} />
           </div>
-          <OtherToolContent label={"Other Tools"} data={otherTools} />
+          <OtherToolContent label="Other Tools" data={otherTools} />
         </div>
         <Footer />
       </Container>

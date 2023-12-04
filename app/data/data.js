@@ -232,14 +232,6 @@ export const certificates = [
     credential: "MEPJK2Q56X3V",
   },
   {
-    title: "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
-    link: "https://www.dicoding.com/certificates/JLX1L5926X72",
-    institution: "Dicoding Indonesia",
-    issued: "Jan 2023",
-    expired: "Jan 2026",
-    credential: "JLX1L5926X72",
-  },
-  {
     title: "Belajar Dasar Pemrograman JavaScript",
     link: "https://www.dicoding.com/certificates/81P28NDWYPOY",
     institution: "Dicoding Indonesia",

@@ -8,11 +8,11 @@ import Container from "@/components/Container";
 import Navbar from "@/components/Navbar";
 import WorkItem from "@/components/WorkItem";
 import Footer from "@/components/Footer";
+import ParticlesComponents from "@/components/Particles";
 
 import { GoDeviceDesktop, GoDeviceMobile } from "react-icons/go";
 
 import { worksWeb } from "../../data/data";
-import ParticlesComponents from "@/components/Particles";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },

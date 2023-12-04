@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Container from "@/components/Container";
 import Footer from "@/components/Footer";
+import ParticlesComponents from "@/components/Particles";
 
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { LuCakeSlice, LuMapPin, LuUser2, LuMail } from "react-icons/lu";
-import ParticlesComponents from "@/components/Particles";
 
 const page = () => {
   const [mounted, setMounted] = useState(false);

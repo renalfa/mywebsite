@@ -1,5 +1,7 @@
 import React from "react";
+
 import Square from "./Square";
+
 import { findWinner } from "@/app/func";
 
 const containerStyle = {
