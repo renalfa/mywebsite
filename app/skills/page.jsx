@@ -16,7 +16,6 @@ import {
   languages,
   otherTools,
 } from "../data/data";
-import Image from "next/image";
 import CertificateContent from "@/components/CertificateContent";
 
 const page = () => {

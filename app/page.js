@@ -24,12 +24,19 @@ export default function Home() {
   useEffect(() => setMounted(true), []);
 
   useEffect(() => {
-    setTimeout(() => {
-      showToast();
-    }, 1500);
+    const toastShown = sessionStorage.getItem("toastShown");
+
+    if (!toastShown) {
+      sessionStorage.setItem("toastShown", "true");
+
+      setTimeout(() => {
+        showToast();
+      }, 1500);
+    }
   }, []);
 
   if (!mounted) return null;
+
   return (
     <>
       <Toaster reverseOrder={false} toastOptions={{ duration: 3000 }} />

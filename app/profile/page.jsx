@@ -8,12 +8,12 @@ import Navbar from "@/components/Navbar";
 import Container from "@/components/Container";
 import Footer from "@/components/Footer";
 import ParticlesComponents from "@/components/Particles";
+import SpanText from "@/components/SpanText";
 
 import { LuMapPin } from "react-icons/lu";
 
 import { profileData } from "../data/data";
 import { generateIcon } from "../func";
-import SpanText from "@/components/SpanText";
 
 const page = () => {
   const [mounted, setMounted] = useState(false);
