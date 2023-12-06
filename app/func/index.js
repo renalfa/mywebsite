@@ -24,6 +24,8 @@ import {
 } from "react-icons/si";
 import { FaReact, FaVuejs, FaNodeJs, FaBootstrap } from "react-icons/fa";
 import { BiLogoNetlify } from "react-icons/bi";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { LuCakeSlice, LuUser2, LuMail } from "react-icons/lu";
 
 export const generateIcon = (icon) => {
   switch (icon) {
@@ -81,6 +83,14 @@ export const generateIcon = (icon) => {
       return <SiHeroku />;
     case "netlify":
       return <BiLogoNetlify />;
+    case "whatsapp":
+      return <AiOutlineWhatsApp size={26} />;
+    case "cake":
+      return <LuCakeSlice size={26} />;
+    case "user":
+      return <LuUser2 size={26} />;
+    case "mail":
+      return <LuMail size={26} />;
     default:
       return null;
   }

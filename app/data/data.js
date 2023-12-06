@@ -21,6 +21,13 @@ export const menus = [
   },
 ];
 
+export const profileData = [
+  { icon: "user", data: "Reynald Faidzilah Ahmad" },
+  { icon: "cake", data: "17 May 2001" },
+  { icon: "whatsapp", data: "0895370077222" },
+  { icon: "mail", data: "rfaidzilah@gmail.com" },
+];
+
 export const worksMobile = [
   {
     title: "Removie - Movie App",

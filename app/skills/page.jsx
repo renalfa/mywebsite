@@ -9,7 +9,15 @@ import SkillContent from "@/components/SkillContent";
 import OtherToolContent from "@/components/OtherToolContent";
 import ParticlesComponents from "@/components/Particles";
 
-import { backends, frontends, languages, otherTools } from "../data/data";
+import {
+  backends,
+  certificates,
+  frontends,
+  languages,
+  otherTools,
+} from "../data/data";
+import Image from "next/image";
+import CertificateContent from "@/components/CertificateContent";
 
 const page = () => {
   const [mounted, setMounted] = useState(false);
@@ -29,6 +37,7 @@ const page = () => {
             <SkillContent label="Backend" data={backends} />
           </div>
           <OtherToolContent label="Other Tools" data={otherTools} />
+          <CertificateContent label="Certificate" data={certificates} />
         </div>
         <Footer />
       </Container>
