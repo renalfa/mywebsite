@@ -68,6 +68,30 @@ export const worksWeb = [
     link: "https://madangs.vercel.app/",
     tech: ["Vue.JS", "Bootstrap", "Firebase"],
   },
+  {
+    title: "UI travel kit - Bedengan Camp Area",
+    thumbnail: "/images/travel.png",
+    link: "https://ui-travelweb.vercel.app/",
+    tech: ["Next.JS", "Tailwind CSS"],
+  },
+  {
+    title: "Aplikasi Penilaian Mahasiswa",
+    thumbnail: "/images/penilaian.png",
+    link: "https://test-talentlytica-renal.vercel.app/",
+    tech: ["React.JS", "Tailwind CSS"],
+  },
+  {
+    title: "My simple todolist",
+    thumbnail: "/images/todolist.png",
+    link: "https://mysimple-todo-list.vercel.app/",
+    tech: ["React.JS", "Material UI", "Firebase"],
+  },
+  {
+    title: "My Superchat",
+    thumbnail: "/images/superchat.png",
+    link: "https://my-superchat.vercel.app/",
+    tech: ["React.JS", "Firebase"],
+  }
 ];
 
 export const languages = [
