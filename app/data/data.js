@@ -45,6 +45,18 @@ export const worksMobile = [
 
 export const worksWeb = [
   {
+    title: "Indonesia Comic Con - Clone",
+    thumbnail: "/images/icc.png",
+    link: "https://icc-clone.vercel.app/",
+    tech: ["Next.JS", "Tailwind CSS"],
+  },
+  {
+    title: "Explore Indonesia - Travel Website",
+    thumbnail: "/images/explore.png",
+    link: "https://myexplore-indonesia.vercel.app/",
+    tech: ["Next.JS", "Tailwind CSS"],
+  },
+  {
     title: "Panel Admin Next Generation",
     thumbnail: "/images/panel-admin.png",
     link: "",
