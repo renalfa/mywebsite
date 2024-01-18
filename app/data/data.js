@@ -45,6 +45,18 @@ export const worksMobile = [
 
 export const worksWeb = [
   {
+    title: "My Startup - Startup Website",
+    thumbnail: "/images/startup.png",
+    link: "https://my-startup-landing.vercel.app/",
+    tech: ["Next.JS", "Tailwind CSS"],
+  },
+  {
+    title: "PW Generate - Password Generator",
+    thumbnail: "/images/pw.png",
+    link: "https://mygenerate-pw.vercel.app/",
+    tech: ["Next.JS", "Tailwind CSS"],
+  },
+  {
     title: "Indonesia Comic Con - Clone",
     thumbnail: "/images/icc.png",
     link: "https://icc-clone.vercel.app/",
@@ -103,7 +115,7 @@ export const worksWeb = [
     thumbnail: "/images/superchat.png",
     link: "https://my-superchat.vercel.app/",
     tech: ["React.JS", "Firebase"],
-  }
+  },
 ];
 
 export const languages = [
