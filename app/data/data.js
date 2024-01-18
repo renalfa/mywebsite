@@ -248,7 +248,7 @@ export const otherTools = [
 export const certificates = [
   {
     title: "Full Stack Web Development Certificate",
-    link: "",
+    link: "https://drive.google.com/file/d/1LYPRdRNuR2mdRAXmANWVcw9jhEEiCecp/view",
     institution: "Binar Academy",
     issued: "Apr 2023",
     expired: "-",
@@ -256,7 +256,7 @@ export const certificates = [
   },
   {
     title: "Student Report",
-    link: "",
+    link: "https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=458410b270&attid=0.1&permmsgid=msg-f:1762770579286259200&th=18769e8096ddf600&view=att&disp=inline&saddbat=ANGjdJ8nrTvLoNxoVXbDg7u1uxpxxBr_3j8-sEBPAHYZOptzlivrt6Ct_jlM02R1xSmv42n9iFa51_WdKcFAkn3CUZ0PdxhHJ3J45E-g2ALatN7w6nl_ISQOFXe7bM-pbc2IgghrSWcW9tJcE1oVqwFYCdU4ws2SAt3G9H64V-1nJ1hfJY8-Vkd0h4QqOZZ7dftvPcE3dftzOBUgyqJa30sNCq0O1w-yRJsFchV0yvhbOkbX7ad2pZCeBEIrGQJh3XC1HKTnLXHkcddTNZdlbwfxID31_pGOgop-8ZNt42VKZbbeO4xKk2yxa4GP0fT0zubp901OhiLhhvgcjLvam6FtMV3sSGUvhYH0zEOH1dasdfI_zZ-nP_LGGa4qtaE0RG_hcDGEIONVPuWCAMRk1fq0dbmtD4ph9L8sVgnt6Xg3M1E65XRAy_hdElUVd1GlJAEIY3Q6hAkP-Z10oQGpKw-P8iSU63G-Y3cQncPSkQ5bBYj5CYVsACL3Uc14UhAi5QhoBIvnMXKOtmm3W-fd94NJ-SGzRSkdPTzX08kQoCgMMjWnCJGtcmGcsu_T7e_DvO6XSoxMv9l4MxQN7rioPebZqb0UwmRkgNBZPLlj0sMqdq9ql0ERHrMhjJPTly0k5oG1lPc506AvhOXqq1TbISQykEl1MMxCAO-Yne6m0CaiufO9hNHFTw9V-jCfOiF5ngFixsh0ck7Wb40jJR37v6LJQLpjSC5Vo9qfej6Jl39jU9NjrGmJo1G1tfrgnF5jeUA9cjb56Bk4VBQQAGxULU9rQeHZi4wMgAUY5ofilF71noBzqNllKknlmAwJOxtpYdtX9_ProCqyiZKL4EXSyNrAUPtioQzm4zv2SAVU58FNFiNSq9mgJRFgYD-qFMWgIQgaSLyr8ljRTFQssKIe0ugJpSvFzg5pMgUqILJpuk5u1xlAa4BrBBa2yIvQYST3hhM4NlSbg76Z1yMfwxqd6T5edl-6E_3KhKF6aMk3mg",
     institution: "Binar Academy",
     issued: "Apr 2023",
     expired: "-",
