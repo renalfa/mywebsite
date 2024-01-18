@@ -127,7 +127,7 @@ export const languages = [
   {
     title: "Typescript",
     icon: "typescript",
-    level: "80%",
+    level: "85%",
   },
 ];
 
@@ -140,12 +140,12 @@ export const frontends = [
   {
     title: "Next JS",
     icon: "next",
-    level: "80%",
+    level: "85%",
   },
   {
     title: "Vue JS",
     icon: "vue",
-    level: "70%",
+    level: "65%",
   },
 ];
 
