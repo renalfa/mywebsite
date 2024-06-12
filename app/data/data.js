@@ -45,6 +45,12 @@ export const worksMobile = [
 
 export const worksWeb = [
   {
+    title: "NW Laptop Madiun",
+    thumbnail: "/images/nwlaptop.jpg",
+    link: "https://www.nwlaptopmadiun.com/",
+    tech: ["Next.JS", "Tailwind CSS", "Firebase"]
+  },
+  {
     title: "My Startup - Startup Website",
     thumbnail: "/images/startup.png",
     link: "https://my-startup-landing.vercel.app/",
@@ -127,7 +133,7 @@ export const languages = [
   {
     title: "Typescript",
     icon: "typescript",
-    level: "85%",
+    level: "90%",
   },
 ];
 
@@ -140,7 +146,7 @@ export const frontends = [
   {
     title: "Next JS",
     icon: "next",
-    level: "85%",
+    level: "90%",
   },
   {
     title: "Vue JS",

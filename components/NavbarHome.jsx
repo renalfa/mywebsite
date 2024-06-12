@@ -14,7 +14,7 @@ const NavbarHome = () => {
       icon: BsLinkedin,
       link: "https://www.linkedin.com/in/reynald-faidzilah-ahmad/",
     },
-    { icon: BsInstagram, link: "https://www.instagram.com/rnl________/" },
+    { icon: BsInstagram, link: "https://www.instagram.com/renal.fa/" },
   ];
 
   const handleDownload = () => {
@@ -24,21 +24,21 @@ const NavbarHome = () => {
   };
 
   return (
-    <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-      <div className=" flex flex-row items-center justify-center gap-4">
+    <div className="z-10 items-center justify-between w-full max-w-5xl font-mono text-sm lg:flex">
+      <div className="flex flex-row items-center justify-center gap-4 ">
         {listIcon.map((item, index) => (
           <IconItem key={index} icon={item.icon} link={item.link} />
         ))}
         <button
           onClick={handleDownload}
-          className=" bg-neutral-800/50 py-2 px-4 rounded-full hover:bg-neutral-600/50 transition-all"
+          className="px-4 py-2 transition-all rounded-full  bg-neutral-800/50 hover:bg-neutral-600/50"
         >
           Download CV
         </button>
       </div>
-      <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+      <div className="fixed bottom-0 left-0 flex items-end justify-center w-full h-48 bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
         <div
-          className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 bg-red"
+          className="flex gap-2 p-8 pointer-events-none place-items-center lg:pointer-events-auto lg:p-0 bg-red"
           onClick={() => router.push("/")}
         >
           By{" "}

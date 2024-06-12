@@ -1,16 +1,14 @@
-"use client";
-
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const IconItem = ({ icon: Icon, link }) => {
-  const router = useRouter();
   return (
-    <div
-      onClick={() => router.push(link)}
-      className=" hover:text-neutral-400 transition cursor-pointer"
+    <Link
+      href={link}
+      target="_blank"
+      className="transition cursor-pointer hover:text-neutral-400"
     >
       <Icon size={20} />
-    </div>
+    </Link>
   );
 };
 
